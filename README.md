@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/3columnpreviewcardcomponent-fQLBkGmyZ](https://your-solution-url.com)
+- Live Site URL: [https://pechemelba.github.io/3_column_preview_card_component/](https://your-live-site-url.com)
 
 ## My process
 
