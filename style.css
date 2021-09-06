@@ -6,13 +6,7 @@
     font-family: 'Big_Shoulders_Display';
     src: url('fonts/BigShouldersDisplay-SemiBold.ttf') format('truetype');
 }
-.attribution
-{
-    display: unset;
-    position: absolute; bottom: 0;    
-    color: black;   
-    text-align: center;
-}
+
 
 body
 {
@@ -21,13 +15,15 @@ body
     width: 100vw;
     height: 100vh;    
 
+    margin: 0;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-section
+main
 {
     border-radius: 10px;
     overflow: hidden;
@@ -121,11 +117,19 @@ a
     border: 2px solid white;
 }
 
+.attribution
+{
+    display: unset;
+    position: absolute; bottom: 0; 
+    text-align: center;   
+}
+.attribution > p{color: black;  width: 100%;}
+
 @media all and (max-width: 650px)
 {
     .attribution
     {
-        position: relative;        
+        position: relative;   
     }
 
     body
@@ -138,7 +142,7 @@ a
         margin:auto;
     }
 
-    section
+    main
     {
         flex-direction: column;
     
